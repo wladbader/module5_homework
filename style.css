@@ -55,7 +55,7 @@ a::after {
     display: block;
     opacity: 0;
     transition: opacity .2s linear;
-    height: 3px;
+    height: 2px;
     width: 100%;
     z-index: 1;
     background-color: rgb(223, 126, 0);
