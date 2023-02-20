@@ -10,6 +10,17 @@ main {
     justify-content: center;
 }
 
+@media only screen and (max-width: 376px) {
+    main {
+        display: block;
+    }
+
+    .nav {
+        margin: 10px;
+        width: 100px;
+    }
+}
+
 h1 {
     color: grey;
 }
