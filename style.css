@@ -10,14 +10,27 @@ main {
     justify-content: center;
 }
 
-@media only screen and (max-width: 751px) {
+@media screen and (max-width: 751px) {
     main {
         display: block;
     }
 
-    .nav {
+    #about {
+        margin: auto 10vw;
+        width: 80vw;
+    }
+
+    .nav, .footer {
         margin: 10px;
         width: 100px;
+    }
+
+    .for_desktop {
+        display: none;
+    }
+
+    .for_mobile {
+        display: inline;
     }
 }
 
@@ -79,4 +92,12 @@ a:hover::after {
 footer {
     margin: 24px 45%;
     color: grey;
+}
+
+.for_desktop {
+    display: inline;
+}
+
+.for_mobile {
+    display: none;
 }
