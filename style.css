@@ -10,30 +10,6 @@ main {
     justify-content: center;
 }
 
-@media screen and (max-width: 751px) {
-    main {
-        display: block;
-    }
-
-    #about {
-        margin: auto 10vw;
-        width: 80vw;
-    }
-
-    .nav, .footer {
-        margin: 10px;
-        width: 100px;
-    }
-
-    .for_desktop {
-        display: none;
-    }
-
-    .for_mobile {
-        display: inline;
-    }
-}
-
 h1 {
     color: grey;
 }
@@ -100,4 +76,28 @@ footer {
 
 .for_mobile {
     display: none;
+}
+
+@media screen and (max-width: 751px) {
+    main {
+        display: block;
+    }
+
+    #about {
+        margin: auto 10vw;
+        width: 80vw;
+    }
+
+    .nav, .footer {
+        margin: 10px;
+        width: 100px;
+    }
+
+    .for_desktop {
+        display: none;
+    }
+
+    .for_mobile {
+        display: inline;
+    }
 }
